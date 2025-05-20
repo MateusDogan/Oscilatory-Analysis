@@ -1,5 +1,7 @@
 # --- Python ---
 .venv/               # Virtual environment (always ignore)
+.venv
+venv/
 
 # Build and distribution files
 dist/
