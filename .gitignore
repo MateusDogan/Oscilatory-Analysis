@@ -1,11 +1,8 @@
 # --- Python ---
 venv/               # Virtual environment (always ignore)
-.Python
-build/
-*.egg-info/
-.ipynb_checkpoints/  # Jupyter notebooks cache
 
 # --- C/C++ ---
+*.exe
 *.o
 *.out
 *.a
