@@ -1,0 +1,16 @@
+# ========== CODE FILES ==========
+# C files - enable syntax-aware diffs
+*.c diff=cpp
+*.h diff=cpp
+
+# Python files - better diff highlighting
+*.py diff=python
+
+# ========== JUPYTER NOTEBOOKS ==========
+# Basic treatment (no output stripping)
+*.ipynb -diff -merge
+*.ipynb linguist-language=Python
+
+# ========== LINE ENDINGS ==========
+# Standardize across operating systems
+* text=auto
