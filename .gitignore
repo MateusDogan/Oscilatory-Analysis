@@ -11,6 +11,8 @@ __pycache__/
 
 # Jupyter Notebooks
 notebooks/*.ipynb
+notebooks/*.csv
+python/*csv
 !notebooks/template.ipynb
 !notebooks/final_*.ipynb
 
