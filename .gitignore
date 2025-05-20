@@ -1,6 +1,19 @@
 # --- Python ---
 .venv/               # Virtual environment (always ignore)
 
+# Build and distribution files
+dist/
+build/
+*.egg-info/
+
+# Python cache (optional but recommended)
+__pycache__/
+
+# Jupyter Notebooks
+notebooks/*.ipynb
+!notebooks/template.ipynb
+!notebooks/final_*.ipynb
+
 # --- C/C++ ---
 *.exe
 *.o
