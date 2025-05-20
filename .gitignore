@@ -1,5 +1,5 @@
 # --- Python ---
-venv/               # Virtual environment (always ignore)
+.venv/               # Virtual environment (always ignore)
 
 # --- C/C++ ---
 *.exe
