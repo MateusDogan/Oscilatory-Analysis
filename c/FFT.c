@@ -1,3 +1,5 @@
+#include "FFT.h"
+
 Sample NUFFT(Sample data)
 {
     return data;
